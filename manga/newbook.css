@@ -1,0 +1,32 @@
+.newbook {
+    color: red;
+    border: 2px solid;
+    padding:  0 5px;
+    margin-left: 5px;
+}
+.volume {
+    color:grey;
+    border: 2px solid;
+    padding:  0 5px;
+    margin-left: 5px;
+}
+.paging-item {
+    display: inline-block;
+    padding: 0 15px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.paging {
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid #eee;
+    margin-top: 20px;
+    border-bottom:1px solid #eee;
+}
+
+.paging-next, .paging-item {
+    display: inline-block;
+    padding: 0 15px;
+    font-weight: bold;
+}

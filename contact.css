@@ -1,0 +1,64 @@
+
+form{
+    width: 700px;
+    border:  2px solid #ccc ;
+    
+    background: #fff;
+    border-radius: 15px;
+}
+input , textarea , select{ 
+    display: block;
+    border: 2px solid #ccc ;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto ;
+    border-radius: 5px;
+}
+label{
+    color: rgb(0, 0, 0) ;
+    font-size: 18px;
+    padding: 10px;
+}
+button { 
+    float: right;
+    background: #555;
+    padding: 10px 40px ;
+    color: #fff ;
+    border-radius: 5px ;
+    margin-right: 10px;
+    border: none;
+}
+button:hover{
+    opacity: .7;
+}
+.login{
+    display: flex ; 
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+    color:black;
+    padding: 15px;
+}
+textarea[name="contact"]{
+    height: 150px;
+}
+.select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }

@@ -1,0 +1,11 @@
+.row a:hover {
+    color: var(--main-color);
+}
+.row a {
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+}
+
+.row a:hover {
+    transform: translateX(5px);
+}
